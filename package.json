@@ -1,0 +1,25 @@
+{
+  "name": "backend-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r ts-node/register src/index.ts",
+    "watch": "nodemon --exec npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^11.9.4",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.7.7"
+  }
+}
